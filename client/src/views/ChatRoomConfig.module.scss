@@ -1,0 +1,14 @@
+.chatRoomConfigContainer {
+    width: auto;
+    height: auto;
+    padding: 12px;
+    margin-top: 8px;
+    
+    & .icon {
+        margin-right: 8px
+    }
+    & .configure {
+        padding-left: 12px;
+        text-align:right 
+    }
+  }

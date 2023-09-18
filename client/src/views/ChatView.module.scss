@@ -1,0 +1,23 @@
+.chatViewContainer {
+    height: 100% !important;
+    overflow:hidden;
+
+    & .chatRoomViewContainer {
+        background-color: #212121 !important
+    }
+    & .chatMessageContainer {
+        padding: 12px !important;
+        height:100%;
+        align-items:stretch !important;
+        flex-flow:column 
+    }
+    & .chatMessageViewContainer {
+        align-items:stretch;
+        height: 100%;
+        overflow-y:auto
+    }
+    & .icon {
+        margin: 4px;
+        justify-content: end;
+    }
+  }

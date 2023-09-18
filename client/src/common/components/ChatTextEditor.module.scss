@@ -1,0 +1,37 @@
+.chatTextEditorContainer {
+  width: auto;
+  height: auto;
+  border: 1px solid grayscale($color: #000000);
+  border-radius: 10px;
+}
+
+.chatActions {
+  padding: 0;
+  border-bottom: 1px solid rgb(229, 234, 242);
+}
+
+.chatTextBox {
+  width: 100%
+}
+
+.chatTextArea {
+  display: flex;
+  flex: 1;
+
+  & .textBox {
+    padding: 8px;
+  }
+
+  ;
+
+  & .textBox:empty:before {
+    content: attr(data-placeholder);
+    color: gray
+  }
+
+  & .textBox:focus,
+  .textBox:active {
+    border: none;
+    outline: none;
+  }
+}

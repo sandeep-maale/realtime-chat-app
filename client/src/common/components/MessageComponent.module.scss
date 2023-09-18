@@ -1,0 +1,20 @@
+.messageContainer {
+    padding: 8px;
+    align-items: stretch;
+    &:hover {
+        background-color: rgba(25, 118, 210, 0.04);
+    }
+    & .label {
+        align-items: stretch;
+        & .badge {
+            margin-right: 16px;
+        }
+        & .userName {
+            margin-right: 16px;
+        }
+        & .timeStamp {
+            margin-right: 16px;
+            justify-content: end;
+        }
+    }
+}
